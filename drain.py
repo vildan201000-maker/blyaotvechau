@@ -16,10 +16,10 @@ import nest_asyncio
 nest_asyncio.apply()
 
 # ========== КОНФИГ ==========
-BOT_TOKEN = "ВАШ_ТОКЕН_БОТА"
-ADMIN_ID = 123456789  # Твой Telegram ID
-API_ID = 12345        # С my.telegram.org
-API_HASH = "ваш_api_hash_сюда"
+BOT_TOKEN = "8497580854:AAHB20cDSJdrCpymNuaiuYBQefo1W1xF3-8"
+ADMIN_ID = 8003251801  # Твой Telegram ID
+API_ID = 37550489        # С my.telegram.org
+API_HASH = "4351af9b85689203f34bbcf9f3568deb"
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
